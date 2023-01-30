@@ -1,0 +1,23 @@
+type Query
+{
+   students:[Student]
+}
+
+type Student {
+   id:ID!
+   firstName:String
+   lastName:String
+   college:College
+}
+
+type College {
+   id:ID!
+   name:String
+   location:String
+   rating:Float
+}
+type Mutation {
+   createStudent(id:ID,firstName:String,lastName:String): String
+   addStudent_returns_object(id:ID,firstName:String,lastName:String):Student
+   editStudent(id:ID!,firstName:String,lastName:String):Student
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S1001",
+    "firstName": "ram",
+    "lastName": "krishna",
+    "email": "ram.krishna@abc.org",
+    "password": "pass123",
+    "collegeId": "col-102"
+  },
+  {
+    "id": "S1002",
+    "email": "shiv.sudhakaran@abc.org",
+    "firstName": "shiv",
+    "lastName": "Sudhakaran",
+    "password": "pass123",
+    "collegeId": "col-101"
+  },
+  {
+    "id": "S1003",
+    "email": "kiran.dd@abc.org",
+    "firstName": "Kiran",
+    "lastName": "dd",
+    "password": "pass123",
+    "collegeId": "col-101"
+  }
+]
